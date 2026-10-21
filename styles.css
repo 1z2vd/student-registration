@@ -1,0 +1,111 @@
+/* Background and font */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #222;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 30px 0;
+}
+
+/* Hero banner (uses background image) */
+.hero {
+    background-color: #1f4fbf;
+    background-image: url("banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    color: white;
+    background-color: transparent;
+    margin: 0;
+}
+
+/* Styled headings */
+h1 {
+    font-family: Georgia, serif;
+    font-size: 36px;
+    color: darkblue;
+    background-color: #dbe7ff;
+    padding: 10px;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-size: 28px;
+    color: chocolate;
+}
+
+/* Round picture */
+img {
+    width: 150px;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
+/* Navigation links */
+.nav {
+    margin: 15px 0;
+}
+
+.nav a {
+    margin: 0 12px;
+}
+
+a {
+    color: darkblue;
+    font-weight: bold;
+}
+
+/* Card (class selector) */
+.card {
+    width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 2px solid darkblue;
+    border-radius: 8px;
+    background-color: white;
+}
+
+/* Bordered form */
+.form-box {
+    width: 320px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid darkblue;
+    border-radius: 8px;
+    background-color: white;
+    text-align: left;
+}
+
+.form-box label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.form-box input,
+.form-box select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.form-box button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
